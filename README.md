@@ -5,4 +5,4 @@
 [문제 출처](https://github.com/encrypted-def/basic-algo-lecture)
 
 # 파일명 규칙
-{순서}_{번호}_{원하는이름}
+{순서}__{번호}__{원하는이름}
