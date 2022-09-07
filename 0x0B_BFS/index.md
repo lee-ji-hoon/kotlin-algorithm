@@ -1,4 +1,3 @@
-| Index | 문제 번호 | 문제 제목 |
 | :--: | :--: | :--: |
 | 1 | 1926 | [그림](https://www.acmicpc.net/problem/1926) |
 | 2 | 2178 | [미로 탐색](https://www.acmicpc.net/problem/2178) |
