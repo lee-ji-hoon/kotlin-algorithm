@@ -9,3 +9,9 @@
 <pre><code>
 {순서}_{번호}_{원하는이름}
 </code></pre>
+
+# 이슈
+### kotlin 프로젝트가 설정이 되지 않는 경우
+`unresolved reference print Error`
+- Ctrl + Shift + A 으로 검색창 열기
+- Configure kotlin in Project 실행
