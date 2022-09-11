@@ -1,7 +1,7 @@
 import java.util.*
 private val dx = intArrayOf(1, 0, -1, 0)
 private val dy = intArrayOf(0, 1, 0, -1)
-internal class Node(var x: Int, var y: Int)
+internal class Node_1(var x: Int, var y: Int)
 
 fun main() {
     val sc = Scanner(System.`in`)
@@ -21,10 +21,10 @@ fun main() {
 }
 
 private fun dfs(N: Int, M: Int, miro: Array<IntArray>, dist: Array<IntArray>) {
-    val q: Queue<Node> = LinkedList()
+    val q: Queue<Node_1> = LinkedList()
 
     // 1. 시작 지점은 1으로 초기화하고 다음 Node들은 현재 Node의 dist[x][y] + 1 값으로 저장
-    q.offer(Node(0, 0))
+    q.offer(Node_1(0, 0))
     dist[0][0] = 1
     while (!q.isEmpty()) {
         val cur = q.poll()
@@ -35,7 +35,7 @@ private fun dfs(N: Int, M: Int, miro: Array<IntArray>, dist: Array<IntArray>) {
 
             // 2. 현재 칸에서 이동할 수 있는 칸의 값은 = 현재 dist[Node]의 값에 + 1
             dist[nx][ny] = dist[cur.x][cur.y] + 1
-            q.offer(Node(nx, ny))
+            q.offer(Node_1(nx, ny))
         }
     }
 }

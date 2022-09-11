@@ -1,7 +1,7 @@
 import java.util.*
 
 
-internal class Node(var x: Int, var y: Int)
+internal class Node_2(var x: Int, var y: Int)
 
 private val dx = intArrayOf(1, 0, -1, 0)
 private val dy = intArrayOf(0, 1, 0, -1)
@@ -40,8 +40,8 @@ fun solution(n: Int, m: Int, board: Array<IntArray>, checked: Array<BooleanArray
 
 fun bfs(board: Array<IntArray>, checked: Array<BooleanArray>, i: Int, j: Int, n: Int, m: Int): Int {
     var size = 0
-    val q: Queue<Node> = LinkedList()
-    q.offer(Node(i, j))
+    val q: Queue<Node_2> = LinkedList()
+    q.offer(Node_2(i, j))
     checked[i][j] = true
 
     // 4. dfs시작
@@ -56,7 +56,7 @@ fun bfs(board: Array<IntArray>, checked: Array<BooleanArray>, i: Int, j: Int, n:
             if (checked[nx][ny] || board[nx][ny] != 1)
                 continue
             checked[nx][ny] = true
-            q.offer(Node(nx, ny))
+            q.offer(Node_2(nx, ny))
         }
     }
     return size
