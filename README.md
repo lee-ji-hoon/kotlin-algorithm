@@ -2,6 +2,7 @@
 |번호|주제|
 | :--: | :--: |
 |0x0B|[BFS](https://github.com/audxo112/kotlin-algorithm/blob/K004/0x0B_BFS/index.md)|
+|0x0B|[BFS](https://github.com/audxo112/kotlin-algorithm/blob/K004/0x0C_BackTracking/index.md)|
 
 [문제 출처 : 바킹독의 실전 알고리즘](https://github.com/encrypted-def/basic-algo-lecture)
 
