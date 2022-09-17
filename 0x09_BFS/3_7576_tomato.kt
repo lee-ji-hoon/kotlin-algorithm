@@ -10,29 +10,24 @@ fun main() = with(System.`in`.bufferedReader()) {
 
     val tomatoList = Array(N) { IntArray(M) } // 입력 받은 토마토
     val dist = Array(N) { IntArray(M) } // 익었는지 확인하기 위한 배열
+    val queue: Queue<Node> = LinkedList()
 
     for (i in 0 until N) {
         val token = StringTokenizer(readLine())
         for (j in 0 until M) {
             tomatoList[i][j] = token.nextToken().toInt()
-            dist[i][j] = -1 // 익었을 경우 0으로 초기화 해주기 위해 기본 초기화 상태 바꾸기
+            if (tomatoList[i][j] == 1) {
+                queue.offer(Node(i, j))
+                dist[i][j] = 0 // 이미 익었다는 의미
+            } else {
+                dist[i][j] = -1 // 익었을 경우 0으로 초기화 해주기 위해 기본 초기화 상태 바꾸기
+            }
         }
     }
     close()
-    // 1. 익은 토마토 전부 Queue에 담아주기
-    val q = findTomato(N, M, tomatoList, dist)
-    solution(N, M, tomatoList, dist, q)
+    solution(N, M, tomatoList, dist, queue)
 }
 
-private fun findTomato(N: Int, M: Int, tomato: Array<IntArray>, dist: Array<IntArray>): Queue<Node> {
-    val queue: Queue<Node> = LinkedList()
-    for (i in 0 until N) for (j in 0 until M)  // 2. 익은 토마토 담고 dist[i][j] 배열은 0으로 초기화
-        if (tomato[i][j] == 1) {
-            queue.offer(Node(i, j))
-            dist[i][j] = 0
-        }
-    return queue
-}
 
 private fun solution(N: Int, M: Int, tomato: Array<IntArray>, dist: Array<IntArray>, q: Queue<Node>) {
     var max = 0
@@ -51,7 +46,7 @@ private fun solution(N: Int, M: Int, tomato: Array<IntArray>, dist: Array<IntArr
         }
     }
     // 3. 익지 않은 토마토가 있는지 확인
-    if (!isCheckedTomato(N, M, dist, tomato)) {
+    if (isCheckedTomato(N, M, dist, tomato).not()) {
         println(-1)
     } else {
         println(max)
@@ -59,9 +54,11 @@ private fun solution(N: Int, M: Int, tomato: Array<IntArray>, dist: Array<IntArr
 }
 
 private fun isCheckedTomato(N: Int, M: Int, dist: Array<IntArray>, tomato: Array<IntArray>): Boolean {
-    for (i in 0 until N) for (j in 0 until M) {  // dist 배열(익는데 걸리는 시간 값이 -1(초기화 상태) 면서
-        if (dist[i][j] == -1 && tomato[i][j] == 0) { // tomato 배열에서 == 0(익지 않은) 경우 익지 않은 토마토 존재
-            return false
+    for (i in 0 until N) {
+        for (j in 0 until M) {  // dist 배열(익는데 걸리는 시간 값이 -1(초기화 상태) 면서
+            if (dist[i][j] == -1 && tomato[i][j] == 0) { // tomato 배열에서 == 0(익지 않은) 경우 익지 않은 토마토 존재
+                return false
+            }
         }
     }
     return true
