@@ -45,12 +45,12 @@ fun main() = with(System.`in`.bufferedReader()) {
         }
     }
     // 1. 불에 대한 dfs 먼저 구하기 -> 퍼지는 시간
-    fireDFS(R, C, miro, fire, fireQ)
+    fireBFS(R, C, miro, fire, fireQ)
     // 2. 지훈이에 대한 dfs 구하기 -> 탈출 시간
-    println(jihoonDFS(R, C, miro, fire, jihoon, jihoonQ))
+    println(jihoonBFS(R, C, miro, fire, jihoon, jihoonQ))
 }
 
-private fun fireDFS(R: Int, C: Int, miro: Array<Array<String?>>, fire: Array<IntArray>, q: Queue<Node_4>) {
+private fun fireBFS(R: Int, C: Int, miro: Array<Array<String?>>, fire: Array<IntArray>, q: Queue<Node_4>) {
     while (!q.isEmpty()) {
         val cur = q.poll()
         for (dir in 0..3) {
@@ -66,7 +66,7 @@ private fun fireDFS(R: Int, C: Int, miro: Array<Array<String?>>, fire: Array<Int
     }
 }
 
-private fun jihoonDFS(R: Int, C: Int, miro: Array<Array<String?>>, fire: Array<IntArray>, jihoon: Array<IntArray>, q: Queue<Node_4>): String {
+private fun jihoonBFS(R: Int, C: Int, miro: Array<Array<String?>>, fire: Array<IntArray>, jihoon: Array<IntArray>, q: Queue<Node_4>): String {
     while (!q.isEmpty()) {
         val cur = q.poll()
         // 3. 탈출 할 수 있는지 확인

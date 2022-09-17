@@ -16,11 +16,11 @@ fun main() {
             miro[i][j] = str[j] - '0'
         }
     }
-    dfs(N, M, miro, dist)
+    bfs(N, M, miro, dist)
     println(dist[N - 1][M - 1])
 }
 
-private fun dfs(N: Int, M: Int, miro: Array<IntArray>, dist: Array<IntArray>) {
+private fun bfs(N: Int, M: Int, miro: Array<IntArray>, dist: Array<IntArray>) {
     val q: Queue<Node_1> = LinkedList()
 
     // 1. 시작 지점은 1으로 초기화하고 다음 Node들은 현재 Node의 dist[x][y] + 1 값으로 저장

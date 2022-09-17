@@ -1,6 +1,6 @@
 import java.util.*
 
-internal class Node6(var x: Int, var y: Int)
+class Node6(var x: Int, var y: Int)
 
 private val dx = intArrayOf(0, 1, 0, -1)
 private val dy = intArrayOf(1, 0, -1, 0)
@@ -34,8 +34,8 @@ private fun findStart(land: Array<IntArray>, m: Int, n: Int) {
     for (i in 0 until m) {
         for (j in 0 until n) {
             if (land[i][j] == 1 && !visited[i][j]) {
-                // 4. dfs 시작
-                dfs(land, m, n, i, j, visited)
+                // 4. bfs 시작
+                bfs(land, m, n, i, j, visited)
                 count++
             }
         }
@@ -44,7 +44,7 @@ private fun findStart(land: Array<IntArray>, m: Int, n: Int) {
     println(count)
 }
 
-private fun dfs(land: Array<IntArray>, m: Int, n: Int, i: Int, j: Int, visited: Array<BooleanArray>) {
+private fun bfs(land: Array<IntArray>, m: Int, n: Int, i: Int, j: Int, visited: Array<BooleanArray>) {
     // 5. 배추 이어져있는 부분 찾기
     val q: Queue<Node6> = LinkedList()
     q.offer(Node6(i, j))
