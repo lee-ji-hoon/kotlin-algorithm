@@ -1,8 +1,8 @@
 import java.util.*
 import kotlin.text.StringBuilder
 
-private lateinit var arr: Array<Int>
-private lateinit var isUsed: Array<Boolean>
+private lateinit var arr: IntArray
+private lateinit var isUsed: BooleanArray
 private val sb = StringBuilder()
 private var N = 0
 private var M = 0
@@ -13,8 +13,8 @@ fun main() = with(System.`in`.bufferedReader()) {
     N = input.nextToken().toInt()
     M = input.nextToken().toInt()
 
-    arr = Array<Int>(M, { 0 })
-    isUsed = Array<Boolean>(N + 1, { false })
+    arr = IntArray(M)
+    isUsed = BooleanArray(N + 1)
 
     dfs(0)
     println(sb.toString())
