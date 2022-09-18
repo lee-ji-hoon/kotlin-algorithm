@@ -20,7 +20,7 @@ fun main() = with(System.`in`.bufferedReader()) {
     println(sb.toString())
 }
 
-fun solution(depth: Int) {
+private fun solution(depth: Int) {
     // 2. depth랑 내가 원하는 크기가 되면 출력
     if (depth == M) {
         arr.forEach {
