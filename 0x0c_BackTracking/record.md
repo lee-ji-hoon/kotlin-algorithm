@@ -14,5 +14,8 @@
 ### 5번 문제
 ![image](https://user-images.githubusercontent.com/53300830/191069632-7acbe368-9bfb-4cb0-984b-fd0e5f716408.png)
 
+### 6번 문제
+![image](https://user-images.githubusercontent.com/53300830/191304587-b6109b00-11dd-49fa-acf1-7678076468c5.png)
+
 
 
