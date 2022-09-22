@@ -17,5 +17,8 @@
 ### 6번 문제
 ![image](https://user-images.githubusercontent.com/53300830/191304587-b6109b00-11dd-49fa-acf1-7678076468c5.png)
 
+### 7번 문제
+![image](https://user-images.githubusercontent.com/53300830/191793253-11151a09-f5a4-4ac0-a54f-d0b0bc392e00.png)
+
 
 
