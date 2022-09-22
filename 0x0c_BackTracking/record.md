@@ -20,5 +20,11 @@
 ### 7번 문제
 ![image](https://user-images.githubusercontent.com/53300830/191793253-11151a09-f5a4-4ac0-a54f-d0b0bc392e00.png)
 
+### 8번 문제
+![image](https://user-images.githubusercontent.com/53300830/191794675-eac06599-e73f-4903-b1b7-57040a290494.png)
+
+### 9번 문제
+
+
 
 
