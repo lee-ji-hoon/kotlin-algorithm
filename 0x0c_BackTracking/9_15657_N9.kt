@@ -2,7 +2,6 @@ private lateinit var arr: IntArray
 private lateinit var isUsed: BooleanArray
 private lateinit var list: List<String>
 var set = LinkedHashSet<String>()
-private val sb = StringBuilder()
 
 fun main() = with(System.`in`.bufferedReader()) {
     // 1. 입력 받기
