@@ -24,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/53300830/191794675-eac06599-e73f-4903-b1b7-57040a290494.png)
 
 ### 9번 문제
-
+![image](https://user-images.githubusercontent.com/53300830/191798249-2d416224-07ed-4e6b-aa8b-42830a831380.png)
 
 
 
