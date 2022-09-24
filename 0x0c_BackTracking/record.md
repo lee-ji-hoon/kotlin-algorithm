@@ -32,3 +32,5 @@
 ### 11번 문제
 ![image](https://user-images.githubusercontent.com/53300830/192092870-df92d38e-387b-45d2-9e4e-e472bc105da1.png)
 
+### 12번 문제
+![image](https://user-images.githubusercontent.com/53300830/192093595-98b6ac88-956b-43b7-be4b-595a7097a9ae.png)
