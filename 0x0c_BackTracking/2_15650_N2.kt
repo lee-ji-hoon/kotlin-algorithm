@@ -16,29 +16,29 @@ fun main() = with(System.`in`.bufferedReader()) {
     arr = IntArray(M)
     isUsed = BooleanArray(N + 1)
 
-    dfs(0)
+    solution(0)
     println(sb.toString())
 }
 
-fun dfs(depth: Int) {
-    // 2. 내가 원하는 수(M)만큼 depth가 들어갔으면 더 이상 값을 조합할 필요가 없어지므로 StringBuilder에 누적
+private fun solution(depth: Int) {
+    // 2. depth랑 내가 원하는 크기가 되면 출력
     if (depth == M) {
         arr.forEach {
-            sb.append(it).append(' ')
+            sb.append(it).append(" ")
         }
         sb.append("\n")
         return
     }
 
-    // 3. 아직 내가 원하는 만큼(M) depth이 되지 않았다면 1 ~ N까지 아직 안들린곳의 수를 추가하고 dfs 다시 시작
+    // 3. 내가 원하는 크기의 배열 만들기
     for (i in 1..N) {
+        // 4. 이미 사용 중이거나 현재 값보다 이전의 값이 더 크면 continue
         if (isUsed[i]) continue
+        if (depth != 0 && arr[depth - 1] > i) continue
 
-        isUsed[i] = true
         arr[depth] = i
-        dfs(depth + 1)
-        // 4. dfs가 끝나고 해당 함수로 다시 돌아왔을때 visit은 다시 false로 바꿔줘야 한다.
-        // 이 부분을 놓쳐서 해결을 못했었다.
+        isUsed[i] = true
+        solution(depth + 1)
         isUsed[i] = false
     }
 }
