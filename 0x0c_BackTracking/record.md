@@ -34,3 +34,6 @@
 
 ### 12번 문제
 ![image](https://user-images.githubusercontent.com/53300830/192093595-98b6ac88-956b-43b7-be4b-595a7097a9ae.png)
+
+### 13번 문제
+![image](https://user-images.githubusercontent.com/53300830/192143137-5ae7767f-6d6b-4bfe-9091-0270a9c0630b.png)
