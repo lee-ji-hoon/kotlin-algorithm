@@ -3,6 +3,8 @@
 | :--: | :--: |
 |0x09|[BFS](https://github.com/audxo112/kotlin-algorithm/blob/K004/0x09_BFS/index.md)|
 |0x0C|[BackTracking](https://github.com/audxo112/kotlin-algorithm/blob/K004/0x0C_BackTracking/index.md)|
+|0x10|[DP](https://github.com/audxo112/kotlin-algorithm/blob/K004/0x10_DP/index.md)|
+|0x11|[그리디](https://github.com/audxo112/kotlin-algorithm/blob/K004/0x11_Greedy/index.md)|
 
 [문제 출처 : 바킹독의 실전 알고리즘](https://github.com/encrypted-def/basic-algo-lecture)
 
