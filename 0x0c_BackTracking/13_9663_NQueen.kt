@@ -50,7 +50,7 @@ fun isPassible(col: Int, chessboard: IntArray): Boolean {
             return false
         // 5. 대각선 인경우도 확인
         // 이때 대각선을 어떻게 구할까 하다가 열의 차이와 행의 차이가 같은 경우
-        } else if (Math.abs(col - i) == Math.abs(chessboard[col] - chessboard[i])){
+        } else if (col - i == Math.abs(chessboard[col] - chessboard[i])){
             return false
         }
     }

@@ -6,7 +6,7 @@ fun main() = with(System.`in`.bufferedReader()) {
     val arr: List<Int> = readLine().split(" ").map { it.toInt() }
 
     solution(n, s, 0, 0, arr)
-    if(s == 0) answer-- // -> 이 부분을 놓쳐서 90프로에서 계속 오류가 났었다..
+    if (s == 0) answer-- // -> 이 부분을 놓쳐서 90프로에서 계속 오류가 났었다..
     println(answer)
 }
 

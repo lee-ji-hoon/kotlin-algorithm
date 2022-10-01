@@ -1,6 +1,5 @@
 import java.util.*
 
-private val sb = StringBuilder()
 fun main() = with(System.`in`.bufferedReader()) {
     while (true) {
         val st = StringTokenizer(readLine(), " ")
