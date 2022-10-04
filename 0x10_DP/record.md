@@ -4,3 +4,6 @@
 ### 2번 문제
 ![image](https://user-images.githubusercontent.com/53300830/193597950-484b1341-098d-4f0e-bb46-97788047a6b1.png)
 
+### 3번 문제
+![image](https://user-images.githubusercontent.com/53300830/193874785-1cf0445c-b5be-41a9-9578-da9bb8efa4da.png)
+
