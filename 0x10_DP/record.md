@@ -7,3 +7,6 @@
 ### 3번 문제
 ![image](https://user-images.githubusercontent.com/53300830/193874785-1cf0445c-b5be-41a9-9578-da9bb8efa4da.png)
 
+### 4번 문제
+![image](https://user-images.githubusercontent.com/53300830/194377976-689a9ead-cc0d-48ac-8b48-206b665ec5dc.png)
+
