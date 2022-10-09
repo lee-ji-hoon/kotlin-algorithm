@@ -16,19 +16,21 @@ fun main() = with(System.`in`.bufferedReader()) {
 
     val sum = IntArray(n + 1)
 
-    st = StringTokenizer(readLine(), " ")
+    /*st = StringTokenizer(readLine(), " ")
     for (i in 0 until n) {
         sum[i + 1] = sum[i] + st.nextToken().toInt()
-    }
-    // 이거 때문에 시간초과나는거 같아보임...
-    /*readLine().split(" ").map { it.toInt() }.forEachIndexed { index, value ->
-        sum[index + 1] = sum[index] + value
     }*/
+    // 이거 때문에 시간초과나는거 같아보임...
+    readLine().split(" ").map { it.toInt() }.forEachIndexed { index, value ->
+        sum[index + 1] = sum[index] + value
+    }
 
+    val sb = StringBuilder()
     repeat(m) {
         st = StringTokenizer(readLine(), " ")
         val start = st.nextToken().toInt()
         val end = st.nextToken().toInt()
-        println(sum[end].minus(sum[start - 1]))
+        sb.appendLine(sum[end].minus(sum[start - 1]))
     }
+    println(sb)
 }
