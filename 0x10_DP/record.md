@@ -15,3 +15,6 @@
 
 ### 6번 문제
 ![image](https://user-images.githubusercontent.com/53300830/194706610-7790f3c6-7764-4de8-bb77-927d8bc6939b.png)
+
+### 7번 문제
+<img width="1139" alt="image" src="https://user-images.githubusercontent.com/53300830/194881184-d229ed35-9d03-4f45-88e3-3b26e07e7635.png">
