@@ -18,3 +18,6 @@
 
 ### 7번 문제
 <img width="1139" alt="image" src="https://user-images.githubusercontent.com/53300830/194881184-d229ed35-9d03-4f45-88e3-3b26e07e7635.png">
+
+### 8번 문제
+![image](https://user-images.githubusercontent.com/53300830/195144463-630360c0-e3e3-4980-8952-70aafd298304.png)
