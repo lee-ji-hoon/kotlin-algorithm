@@ -21,3 +21,6 @@
 
 ### 8번 문제
 ![image](https://user-images.githubusercontent.com/53300830/195144463-630360c0-e3e3-4980-8952-70aafd298304.png)
+
+### 9번 문제
+![image](https://user-images.githubusercontent.com/53300830/195395918-8be966d8-87c8-49f5-b2e1-85ad513b1bc0.png)
