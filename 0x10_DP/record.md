@@ -24,3 +24,6 @@
 
 ### 9번 문제
 ![image](https://user-images.githubusercontent.com/53300830/195395918-8be966d8-87c8-49f5-b2e1-85ad513b1bc0.png)
+
+### 10번 문제
+<img width="1155" alt="image" src="https://user-images.githubusercontent.com/53300830/195643969-87bd28cb-4f09-4eac-89c2-596f7763e976.png">
