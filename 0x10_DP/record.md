@@ -27,3 +27,8 @@
 
 ### 10번 문제
 <img width="1155" alt="image" src="https://user-images.githubusercontent.com/53300830/195643969-87bd28cb-4f09-4eac-89c2-596f7763e976.png">
+
+### 11번 문제
+![image](https://user-images.githubusercontent.com/53300830/195906865-e63a3825-a0ad-4df0-acce-3978751e15e0.png)
+
+
