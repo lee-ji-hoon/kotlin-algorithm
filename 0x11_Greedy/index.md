@@ -1,5 +1,5 @@
 | 순서 | 번호 | 문제 |
-| :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: |
 | 1 | 11047 | [동전 0](https://www.acmicpc.net/problem/11047) |
 | 2 | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1931) |
 | 3 | 2217 | [로프](https://www.acmicpc.net/problem/2217) |
