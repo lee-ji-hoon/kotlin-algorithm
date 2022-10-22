@@ -15,7 +15,7 @@ fun main() = with(System.`in`.bufferedReader()) {
 
     for (i in 1 until n) {
         curRopesSum += ropesSorted[i]
-        val temp = ropesSorted[i] * (i + 1)
+        val temp = ropesSorted[i] * (i + 1) // 정렬을 했으므로 (현재 로프 최대 무게 * 로프 사용 수) 최대라고 인지
         if (temp >= curWeight) {
             curWeight = temp
         }
