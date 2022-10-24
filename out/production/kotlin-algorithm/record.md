@@ -6,4 +6,5 @@
 
 ![image](https://user-images.githubusercontent.com/53300830/197230088-97adc952-61a5-4ea9-9323-12b30823700c.png)
 
-![image](https://user-images.githubusercontent.com/53300830/197349411-bca3d113-fb4d-4853-a958-2ff9a34ed711.png)
+### 7번
+![image](https://user-images.githubusercontent.com/53300830/197403802-bc20850b-9088-4051-beec-505f124066d6.png)
