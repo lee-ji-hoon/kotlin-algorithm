@@ -8,3 +8,6 @@
 
 ### 7번
 ![image](https://user-images.githubusercontent.com/53300830/197403802-bc20850b-9088-4051-beec-505f124066d6.png)
+
+### 8번
+![image](https://user-images.githubusercontent.com/53300830/197575624-11f19e5d-7691-434e-91bf-97b1aef2cfdc.png)
