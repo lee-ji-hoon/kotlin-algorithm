@@ -14,3 +14,6 @@
 
 ### 9번
 ![image](https://user-images.githubusercontent.com/53300830/198091233-0747a85f-1d46-4bca-bb10-05aae72e5c60.png)
+
+### 10번
+![image](https://user-images.githubusercontent.com/53300830/198355553-6169cd90-9d3e-4c67-ab63-939f7bbfef30.png)
