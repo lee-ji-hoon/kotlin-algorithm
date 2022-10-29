@@ -6,4 +6,17 @@
 
 ![image](https://user-images.githubusercontent.com/53300830/197230088-97adc952-61a5-4ea9-9323-12b30823700c.png)
 
-![image](https://user-images.githubusercontent.com/53300830/197349411-bca3d113-fb4d-4853-a958-2ff9a34ed711.png)
+### 7번
+![image](https://user-images.githubusercontent.com/53300830/197403802-bc20850b-9088-4051-beec-505f124066d6.png)
+
+### 8번
+![image](https://user-images.githubusercontent.com/53300830/197575624-11f19e5d-7691-434e-91bf-97b1aef2cfdc.png)
+
+### 9번
+![image](https://user-images.githubusercontent.com/53300830/198091233-0747a85f-1d46-4bca-bb10-05aae72e5c60.png)
+
+### 10번
+![image](https://user-images.githubusercontent.com/53300830/198355553-6169cd90-9d3e-4c67-ab63-939f7bbfef30.png)
+
+### 11번
+![image](https://user-images.githubusercontent.com/53300830/198687943-98fc4e8c-ec97-48cf-8900-84db4c7ccc2f.png)
