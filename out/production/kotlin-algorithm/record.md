@@ -20,3 +20,7 @@
 
 ### 11번
 ![image](https://user-images.githubusercontent.com/53300830/198687943-98fc4e8c-ec97-48cf-8900-84db4c7ccc2f.png)
+
+### 12번
+![image](https://user-images.githubusercontent.com/53300830/198846184-d1ce5d04-385f-4906-8f51-628e50d4caaa.png)
+
