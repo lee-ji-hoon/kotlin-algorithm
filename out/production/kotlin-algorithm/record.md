@@ -24,3 +24,7 @@
 ### 12번
 ![image](https://user-images.githubusercontent.com/53300830/198846184-d1ce5d04-385f-4906-8f51-628e50d4caaa.png)
 
+### 13번
+![image](https://user-images.githubusercontent.com/53300830/199065398-69f8655e-7482-4919-9b10-d58e767e39ac.png)
+
+
