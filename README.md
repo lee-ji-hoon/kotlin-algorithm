@@ -6,6 +6,7 @@
 |0x10|[DP](https://github.com/audxo112/kotlin-algorithm/blob/main/0x10_DP/index.md)|
 |0x11|[그리디](https://github.com/audxo112/kotlin-algorithm/blob/main/0x11_Greedy/index.md)|
 |0x12|[수학](https://github.com/audxo112/kotlin-algorithm/blob/main/0x12_Math/index.md)|
+|0x13|[이분탐색](https://github.com/audxo112/kotlin-algorithm/blob/main/0x13_BinarySearch/index.md)|
 
 [문제 출처 : 바킹독의 실전 알고리즘](https://github.com/encrypted-def/basic-algo-lecture)
 
