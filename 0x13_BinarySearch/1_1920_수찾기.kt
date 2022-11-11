@@ -9,7 +9,8 @@ fun main() = with(System.`in`.bufferedReader()) {
     val m = readLine().toInt()
     st = StringTokenizer(readLine(), " ")
     while (st.hasMoreTokens()) {
-        val binarySearch = Arrays.binarySearch(list, st.nextToken().toInt())
+        val binarySearch = binarySearch(list, 0, list.size, st.nextToken().toInt())
+//        val binarySearch = Arrays.binarySearch(list, st.nextToken().toInt())
         if (binarySearch >= 0) println(1)
         else println(0)
     }
