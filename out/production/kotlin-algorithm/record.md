@@ -12,3 +12,14 @@
 
 ![image](https://user-images.githubusercontent.com/53300830/201353919-723e8eb7-9e5f-4f37-9d9a-756144bb0458.png)
 
+### 4번
+
+![image](https://user-images.githubusercontent.com/53300830/201360528-e5ff1e2e-207a-4a72-a727-1761d8555a1c.png)
+
+### 5번
+
+
+
+### 6번
+
+![image](https://user-images.githubusercontent.com/53300830/201478052-c14c3977-c595-4dec-968b-4c2153e02a5e.png)
