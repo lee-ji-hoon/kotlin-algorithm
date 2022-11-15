@@ -23,3 +23,7 @@
 ### 6번
 
 ![image](https://user-images.githubusercontent.com/53300830/201478052-c14c3977-c595-4dec-968b-4c2153e02a5e.png)
+
+### 7번
+
+![image](https://user-images.githubusercontent.com/53300830/201728465-769aac78-21f1-44fe-ae7d-a832efd54056.png)
