@@ -18,8 +18,6 @@
 
 ### 5번
 
-
-
 ### 6번
 
 ![image](https://user-images.githubusercontent.com/53300830/201478052-c14c3977-c595-4dec-968b-4c2153e02a5e.png)
@@ -33,4 +31,15 @@
 ![image](https://user-images.githubusercontent.com/53300830/201987700-8603e549-e2f1-43fc-95fc-4b78af699341.png)
 
 ### 9번
+
 ![image](https://user-images.githubusercontent.com/53300830/202853386-e70213d0-4b2e-4903-8725-e49e23f40441.png)
+
+### 10번
+
+문제를 이해하는데 실패
+
+### 11번
+![image](https://user-images.githubusercontent.com/53300830/202855306-01f79933-5c34-4f46-92b3-054df39a3dc1.png)
+
+### 12번
+문제를 이해하는데 실패
