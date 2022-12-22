@@ -13,28 +13,19 @@ fun main() = with(System.`in`.bufferedReader()) {
 
     // 오름차순으로 정렬하면 1,2,3,4,5가 된다.
     arr.sort()
-
-    var i = 0
-    var j = 0
+    // 1. start end 지점이 존재한다.
+    var end = 0
     var ans = Int.MAX_VALUE
 
-    // arr[i] - arr[j] >= M 을 만족하는지 순차적으로 체크해야 한다.
-    // 처음은 0이니까 바로 오른쪽으로 이동
-    // arr[1] - arr[0] = 1 이라서 얘도 M보다 작다.
-    // arr[2] - arr[0] = 2 M보다 작거나 같아서 min(ans, a[2]-a[0]) 처리 해준다.
-    // 만족을 시켰으므로 i를 1증가 시켜서 이동시킵니다.
-    // 이런식으로 쭉 가면 됩니다.
-    while (i < N) {
-        if (arr[i] - arr[j] < M) {
-            i++
-            continue
-        }
-        if (arr[i] - arr[j] == M) {
-            ans = M
-            break
-        }
-        ans = min(ans, arr[i] - arr[j])
-        j++
+    // 2. start는 0부터 배열의 끝(N)까지 진행
+    for (start in 0 until N) {
+        // 3. end 값이 N보다 작고 arr[end], [start] 값이 M보다 작다면 end를 한 칸 이동시킨다.
+        while (end < N && arr[end] - arr[start] < M) end++
+        // 4. 만약 end가 N과 같아졌다 -> 배열의 끝까지 왔다는 의미이므로 break 시켜준다.
+        if (end == N) break
+        // 5. 여기까지 왔다는 것은 arr[end] - arr[start]가 M보다 크거나 같다는 의미이므로 answer 값 갱신
+        ans = min(ans, arr[end] - arr[start])
     }
+
     println(ans)
 }
