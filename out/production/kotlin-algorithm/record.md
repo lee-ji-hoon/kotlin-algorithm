@@ -15,7 +15,3 @@
 ### 4번
 
 <img width="1143" alt="image" src="https://user-images.githubusercontent.com/53300830/209253976-4cad26c7-7147-47cc-8594-b86101cda130.png">
-
-### 5번
-
-<img width="1130" alt="image" src="https://user-images.githubusercontent.com/53300830/209421073-03ea71a3-c9ca-46dc-beba-7b94008ad468.png">
