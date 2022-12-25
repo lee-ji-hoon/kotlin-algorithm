@@ -36,6 +36,3 @@
 
 ### 17번
 ![image](https://user-images.githubusercontent.com/53300830/200123297-1b1117db-bb19-4cd5-b818-78710e7542ae.png)
-
-
-
