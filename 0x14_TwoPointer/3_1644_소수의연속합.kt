@@ -13,7 +13,8 @@ fun main() = with(System.`in`.bufferedReader()) {
         findPrimeNum(i, N, isPrime)
     }
 
-    val primeNum = arrayListOf<Int>()
+    val primeNum = ArrayList<Int>(sqrtOfNum + 1)
+
     for (i in 1..N) {
         if (isPrime[i]) primeNum.add(i)
     }

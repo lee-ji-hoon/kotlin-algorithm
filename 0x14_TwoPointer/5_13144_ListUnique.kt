@@ -19,7 +19,7 @@ fun main() = with(System.`in`.bufferedReader()) {
             if (isVisited[arr[end]]) break
             isVisited[arr[end++]] = true
         }
-        answer = answer + (end - start)
+        answer += (end - start)
         isVisited[arr[start]] = false
     }
     println(answer)
