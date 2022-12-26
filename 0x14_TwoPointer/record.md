@@ -24,3 +24,8 @@
 
 ![image](https://user-images.githubusercontent.com/53300830/209503770-57a2286b-029a-499b-99bf-d0602b154a51.png)
 
+
+### 6번
+
+![image](https://user-images.githubusercontent.com/53300830/209503770-57a2286b-029a-499b-99bf-d0602b154a51.png)
+
