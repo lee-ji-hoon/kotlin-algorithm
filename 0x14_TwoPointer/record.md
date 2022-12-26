@@ -29,3 +29,7 @@
 
 ![image](https://user-images.githubusercontent.com/53300830/209503770-57a2286b-029a-499b-99bf-d0602b154a51.png)
 
+### 7번
+
+![image](https://user-images.githubusercontent.com/53300830/209513161-31a71b4b-47ef-4fb2-ba71-b6befcb26e53.png)
+
