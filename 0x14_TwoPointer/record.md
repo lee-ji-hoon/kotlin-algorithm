@@ -37,4 +37,7 @@
 
 <img width="1146" alt="image" src="https://user-images.githubusercontent.com/53300830/209612358-ab4fba63-9efc-491c-9509-1b25de02f965.png">
 
+### 9번
+
+![image](https://user-images.githubusercontent.com/53300830/209616419-840323ba-854b-4bbe-b1ba-f93b6821ec49.png)
 
