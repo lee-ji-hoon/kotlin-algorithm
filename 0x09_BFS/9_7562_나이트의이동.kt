@@ -2,7 +2,7 @@ import java.util.*
 
 private class NightNode(var x: Int, var y: Int)
 
-// 나이트가 이동할 수 있는 경ㄹ는 체스의 나이트와 같다.
+// 나이트가 이동할 수 있는 경로는 체스의 나이트와 같다.
 // 가로 2칸 이동 후 세로1칸 혹은 가로1칸 이동 후 세로1칸이기 때문에 8가지 경우 발생
 private val dx = intArrayOf(-1, 1, -1, 1, -2, 2, 2, -2)
 private val dy = intArrayOf(-2, -2, 2, 2, -1, -1, 1, 1)
@@ -26,11 +26,11 @@ fun main() = with(System.`in`.bufferedReader()) {
         st = StringTokenizer(readLine(), " ")
         val endNode = NightNode(st.nextToken().toInt(), st.nextToken().toInt())
         // 2. dfs 시작
-        println(dfs(l, chess, endNode, q) - 1)
+        println(findNight(l, chess, endNode, q) - 1)
     }
 }
 
-private fun dfs(l: Int, chess: Array<IntArray>, endNode: NightNode, q: Queue<NightNode>): Int {
+private fun findNight(l: Int, chess: Array<IntArray>, endNode: NightNode, q: Queue<NightNode>): Int {
     while (q.isEmpty().not()) {
         val cur = q.poll()
         if (cur.x == endNode.x && cur.y == endNode.y) {

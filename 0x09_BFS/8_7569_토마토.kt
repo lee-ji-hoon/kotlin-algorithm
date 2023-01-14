@@ -45,10 +45,10 @@ fun main() = with(System.`in`.bufferedReader()) {
         return
     }
     // 3. 토마토들 익는 경우 확인
-    dfs(M, N, H, q, visited, box, count)
+    bfs(M, N, H, q, visited, box, count)
 }
 
-private fun dfs(
+private fun bfs(
     m: Int,
     n: Int,
     h: Int,

@@ -31,7 +31,7 @@ fun findColor(n: Int, colorSpace: List<CharArray>) {
     for (i in 0 until n) {
         for (j in 0 until n) {
             if (visited[i][j].not()) {
-                dfs(n, i, j, colorSpace, visited)
+                findColor(n, i, j, colorSpace, visited)
                 count++
             }
         }
@@ -39,10 +39,10 @@ fun findColor(n: Int, colorSpace: List<CharArray>) {
     sb.append(count).append(" ")
 }
 
-private fun dfs(n: Int, i: Int, j: Int, colorSpace: List<CharArray>, visited: Array<BooleanArray>) {
-    val q: Queue<Node> = LinkedList()
+private fun findColor(n: Int, i: Int, j: Int, colorSpace: List<CharArray>, visited: Array<BooleanArray>) {
+    val q: Queue<FireNode> = LinkedList()
     visited[i][j] = true
-    q.offer(Node(i, j))
+    q.offer(FireNode(i, j))
     val color = colorSpace[i][j]
 
     while (!q.isEmpty()) {
@@ -54,7 +54,7 @@ private fun dfs(n: Int, i: Int, j: Int, colorSpace: List<CharArray>, visited: Ar
             if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue
             if (visited[nx][ny] || colorSpace[nx][ny] != color) continue
 
-            q.offer(Node(nx, ny))
+            q.offer(FireNode(nx, ny))
             visited[nx][ny] = true
         }
     }

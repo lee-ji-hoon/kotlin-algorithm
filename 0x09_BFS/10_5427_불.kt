@@ -44,7 +44,7 @@ fun main() {
         }
 
         // 2. 불이 퍼지는 시간 구하기
-        fireDFS(building, fire_dist, fire, h, w)
+        findFire(building, fire_dist, fire, h, w)
         // 3. 상근이가 탈출하는 시간 구하기
         val answer = dogDFS(building, dog_dist, fire_dist, dog, h, w)
 
@@ -56,7 +56,7 @@ fun main() {
     }
 }
 
-private fun fireDFS(building: Array<Array<String?>>, dist: Array<IntArray>, q: Queue<FireNode>, h: Int, w: Int) {
+private fun findFire(building: Array<Array<String?>>, dist: Array<IntArray>, q: Queue<FireNode>, h: Int, w: Int) {
     while (q.isEmpty().not()) {
         val cur = q.poll()
         val x = cur.x
