@@ -33,6 +33,8 @@ fun main() = with(System.`in`.bufferedReader()) {
 private val dx = intArrayOf(1, 0, -1, 0)
 private val dy = intArrayOf(0, 1, 0, -1)
 
+// 하면서 계속 정답이 이상했는데 생각해보니 좌표계가 내가 평소에 하던거랑 달랐다
+// 그래서 90도 돌려서 구하는 형태로 구했다.
 fun findArea(paper: Array<IntArray>, startY: Int, startX: Int, m: Int, n: Int): Int {
     val queue = LinkedList<Pair<Int, Int>>()
     queue.add(Pair(startY, startX))
