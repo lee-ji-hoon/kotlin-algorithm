@@ -3,6 +3,7 @@
 | :--: | :--: |
 |0x09|[BFS](https://github.com/audxo112/kotlin-algorithm/blob/main/0x09_BFS/index.md)|
 |0x0C|[백트래킹](https://github.com/audxo112/kotlin-algorithm/blob/main/0x0C_BackTracking/index.md)|
+|0x0D|[시뮬레이션](https://github.com/audxo112/kotlin-algorithm/blob/main/0x0D_Simulation/index.md)|
 |0x10|[DP](https://github.com/audxo112/kotlin-algorithm/blob/main/0x10_DP/index.md)|
 |0x11|[그리디](https://github.com/audxo112/kotlin-algorithm/blob/main/0x11_Greedy/index.md)|
 |0x12|[수학](https://github.com/audxo112/kotlin-algorithm/blob/main/0x12_Math/index.md)|
