@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/0x09_BFS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x0C_BackTracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x0D_Simulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x10_DP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x11_Greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x13_BinarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0x14_TwoPointer" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/etc" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+</module>
